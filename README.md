@@ -7,6 +7,8 @@ This repo contains notebooks used to prepare Terry Pratchett novels for processi
 
 **1b-vocabularysize_metrics_sigtesting**: I test measures of vocabulary size (extracted in 1a-vocabularysize_metrics) as significant predictors of age using multivariate linear regression. I also test to see if they are correlated significantly with age. 
 
-**2a-prop_idea_density**: I extract the propositional idea density of each book using Kairit Sirt's DEPID software. I also extract mean DEPID-R (rate of unique propositions) from books, divided into segments of 100 paragraphs. I don't use full texts to calculate DEPID-R because repetition rate is highly sensitive to the length of a text, as described above. 
+**2a-prop_idea_density**: I extract the propositional idea density of each book using Kairit Sirt's DEPID software. I also extract mean DEPID-R (rate of unique propositions) from books, divided into segments of 100 paragraphs. I don't use full texts to calculate DEPID-R because repetition rate is highly sensitive to the length of a text - longer texts allow authors to repeat themselves more. 
+
+**2b-prop_idea_density_sigtesting**:
 
 
