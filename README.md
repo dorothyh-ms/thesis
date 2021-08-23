@@ -15,7 +15,7 @@ DEPID, mean DEPID-R, and books where DEPID-R varies with segment order are store
 
 **2b-prop_idea_density_sigtesting**: I test propositional idea density (DEPID) and mean rates of unique propositions (DEPID-R) as significant predictors of age using multivariate linear regression. Kendall's tau is calculated for DEPID, mean DEPID-R, and age at publication. 
 
-**3a-semantic_wordcategory**: For each novel, I extract rates of tokens from each of the lexico-semantic word categories: spatial preposition (e.g., 'inside'), form (e.g. 'round'), color (e.g., 'red'), number (e.g., 'twelve'), and function word (e.g. 'also'). "Number" is the only lexico-semantic word category with no pre-defined list - instead, number tokens are counted using the StandfordNLP features tagger. The function word token list is constructed by getting a list of the 300 most common words from all of Pratchett's novels (stored in the file 'mostcommon300list.txt') and manually removing content words from this list. 
+**3a-semantic_wordcategory**: For each novel, I extract rates of tokens from each of the lexico-semantic word categories: spatial preposition (e.g., 'inside'), form (e.g. 'round'), color (e.g., 'red'), number (e.g., 'twelve'), and function word (e.g. 'also'). "Number" is the only lexico-semantic word category with no pre-defined list - instead, number tokens are counted using the StandfordNLP features tagger. The function word token list is constructed by getting a list of the 300 most common words from all of Pratchett's novels (stored in the file `mostcommon300list.txt`) and manually removing content words from this list. 
 
 Rates of spatial preposition, color, form, number, and function word tokens from full texts are stored in `3-lexicosemantic_wordcategory.csv`
 
