@@ -1,5 +1,5 @@
 # thesis
-This repo contains notebooks used to prepare Terry Pratchett novels for processing and statistical tests. Below is a description of each of these notebooks:
+This repository contains notebooks used to prepare Terry Pratchett novels for processing and statistical tests. Below is a description of each of these notebooks:
 
 `0-data_preparation`: I load TEI XML files containing Pratchett's books and their respective metadata, such as Prachett's age at publication, the novel's date of publication, whether a novel was a young adult novel (young adult novels ended up being excluded from analysis in the final verion), wordcount, cleaned and tokenized texts, and raw texts (raw texts are used in propositional idea density analysis). Metadata and texts are stored in the file "pratchett_metadata.csv".
 
